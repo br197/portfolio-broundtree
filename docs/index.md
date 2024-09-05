@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "TODO: Title"
-  text: "TODO: Subtitle"
-  tagline: "TODO: Tagline"
+  name: "Brianna Roundtree"
+  text: "Software Design Portfolio"
+  tagline: "Designs of the Future"
   actions:
     - theme: brand
       text: Template Repository
