@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: Example Site
       link: "https://61040-fa24.github.io/portfolio-dhua/"
+    - theme: alt
+      text: About Me
+      link: /aboutme
 
 features:
   - title: Blogs
@@ -20,6 +23,8 @@ features:
     link: /blogs
   - title: Assignments
     details: All of your assignments will be posted on your portfolio.
+    link: /assignments
   - title: About Me
-    details: You'll implement a small bio about yourself on here!
+    details: Hi, I'm Brianna. Click here to learn a little about me!
+    link: /aboutme
 ---
