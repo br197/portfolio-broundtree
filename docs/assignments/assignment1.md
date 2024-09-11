@@ -27,8 +27,8 @@ Ms. Phan was born in 1944 in Vietnam. She immigrated to the US while she was in 
 - I hear social media helps people build connections, is that right? If so, how has it helped you build connections?
 - What role has social media played in your life?
 - What social media do you use and for what purpose?
-- **I had my interviewee screenshare during this part** Can you please walk me through one of your favorite social media apps? Who do you follow?
-**Ask questions while interviewee is navigating through various pages**
+- **I had my interviewee screenshare during this part and asked questions while they were navigating through various pages:** Can you please walk me through one of your favorite social media apps? Who do you follow?
+
 - **Follow Up:** What groups have you joined on the social media platforms you are on and why are you in these groups?
 - **Follow Up:** How do you usually interact with others on social media? Why?
 - What impact does social media have on your life today?
@@ -49,7 +49,7 @@ Ms. Phan was born in 1944 in Vietnam. She immigrated to the US while she was in 
 - Best time to learn English was at McDonalds where she worked as a cook and later a cashier
 - Works as a pharmacist now
 
-2. **Follow Up** What challenges did you face moving to the US?
+2. **Follow Up:** What challenges did you face moving to the US?
 - Came to US with her mom and brother
 - Big adjustment since they were professionals (mom - accountant, brother - teacher, Ms. Nguyen - engineer) but had to working cleaning jobs and at McDonalds for low pay
 
@@ -61,8 +61,9 @@ Ms. Phan was born in 1944 in Vietnam. She immigrated to the US while she was in 
 
 4. What social media do you use and for what purpose?
 - Used Facebook a lot because there are so many groups
+
 ***Gave an example***
-- If she has time, she will wander around Facebook "window shopping"
+- For example, if she has time, she will wander around Facebook "window shopping"
 - Uses YouTube when she knows what she is looking for
 
 - ***Asked her to screenshare:*** Can you please walk me through one of your favorite social media apps? Who do you follow?
@@ -76,12 +77,10 @@ Ms. Phan was born in 1944 in Vietnam. She immigrated to the US while she was in 
 
 5. Going back to when you first came to the US, how would you have used social media knowing what you know now?
 - Wish she knew about social media, would make her life a lot easier
-- ***Gave example scenario***
-- If she doesn't know a language and had known about Facebook she would join groups and ask questions
+- ***Gave example scenario:*** If she doesn't know a language and had known about Facebook she would join groups and ask questions
 - **Follow Up:** What kinds of groups and questions would you ask?
 - She would search "Vietnamese"/any Vietnamese names to find any information to find a Vietnamese group
-- ***She gave examples of questions she would ask in those groups***
-- What state has lots of Vietnamese? Jobs? Recipes?
+- ***She gave examples of questions she would ask in those groups:*** What state has lots of Vietnamese? Jobs? Recipes?
 - Ask questions she doesn't know answer to
 - **Follow Up:** Why do you specifically search Vietnamese and look for Vietnamese people? 
 - "I will belong to a group of people"
@@ -90,7 +89,8 @@ Ms. Phan was born in 1944 in Vietnam. She immigrated to the US while she was in 
 
 6. Was finding a community important to you when living in the US? Why?
 - Didn't know community was important in Vietnam but wanted to find a familiar community in the US to ask for help adapting to living in the US and overcoming hardships
-- ***Gave a scenario***
+
+***Gave a scenario:***
 - Had hard time traveling from A to B via subway
 - Had to walk to work
 - Heard of subway and went to the Subway sandwich restaurant
@@ -124,7 +124,7 @@ Ms. Phan was born in 1944 in Vietnam. She immigrated to the US while she was in 
 1. Could you please tell me about yourself and your immigration journey?
 - Came from Vietnam to US roughly 32 years ago
 
-2. **Follow Up** How did you feel when you went to the US?
+2. **Follow Up:** How did you feel when you went to the US?
 - Felt good, America was beautiful, enjoyed life
 
 3. **Follow Up:** What challenges did you face moving to the US?
@@ -137,12 +137,13 @@ Ms. Phan was born in 1944 in Vietnam. She immigrated to the US while she was in 
 - Didn't know how to do public transportation
 - Asked family members for help
 
-4. **Follow Up** Why did you ask family members and not others for help?
+4. **Follow Up:** Why did you ask family members and not others for help?
 - She couldn't articulate to others, lack of transportation
+
 ***Gave Example***
 - When sick, she can't go to doctor because of transportation and can't articulate what's happening to her because of language (mentioned that now they have translators)
 
-5. **Transitioned into social media questions** What social media do you use and for what purpose?
+5. **Transitioned into social media questions:** What social media do you use and for what purpose?
 - Uses SmartTV, laptop, Youtube, Viber, Zalo
 - Uses social media to gain knowledge (cooking, music, news)
 - Only look at channels; follow cooking channels (Vietnamese and some American cooking)
@@ -202,6 +203,6 @@ During her interview, Ms. Phan spoke about coming to the US and how she struggle
 - Why it matters: Immigrants and those learning new information often like to save information for future reference. A more visible save feature would allow saved information to be stored in-app and helps older users understand how to navigate the app if they wanted to save content.
 
 **Forum Searching**
-- Opportunity: The interviews highlighted searching for specific terms/names to be directed to people and related content (ie "Vietnamese" to be directed to Vietnamese users or groups). There is an opportunity for users to search for specific key terms to see what related content is available on the app.
+- Opportunity: The interviews highlighted searching for specific terms/names to be directed to people and related content (ie "Vietnamese" to be directed to Vietnamese users or groups). There is an opportunity for users to search for specific key terms to see what groups,topics,related content,etc. is available on the app.
 
 - Why it matters: It provides users the ability to see their options when it comes to which groups they can join on the app.
