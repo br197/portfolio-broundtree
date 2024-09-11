@@ -205,4 +205,4 @@ During her interview, Ms. Phan spoke about coming to the US and how she struggle
 **Forum Searching**
 - Opportunity: The interviews highlighted searching for specific terms/names to be directed to people and related content (ie "Vietnamese" to be directed to Vietnamese users or groups). There is an opportunity for users to search for specific key terms to see what groups,topics,related content,etc. is available on the app.
 
-- Why it matters: It provides users the ability to see their options when it comes to which groups they can join on the app.
+- Why it matters: It provides users the ability to see their options when it comes to which groups they can join/content they can explore on the app.
