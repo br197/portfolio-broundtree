@@ -1,5 +1,5 @@
 ---
-title: "5 Minute Crafts and Divergent Design"
+title: "5 Minute Crafts and Divergent Thinking"
 layout: doc
 ---
 
