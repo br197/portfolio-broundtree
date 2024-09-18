@@ -137,7 +137,7 @@ Users can share resources that they have used to learn about the US (ie ESL reso
 
 13. Upvoting
 
-Users can upvote questions to make relatble questions more visible in discussion threads and can upvote resources as well to indicate how helpful the resource is.
+Users can upvote questions to make relatable questions more visible in discussion threads and can upvote resources as well to indicate how helpful the resource is.
 
 14. Discussion Threads
 
@@ -170,9 +170,6 @@ Users are able to specify what they are looking for in using HelloUSA and match 
 ## VSD Analysis
 
 ### Stakeholders
-a). ***Observation: Stakeholders - Non-targeted Use of Content Posting*** Malicious users can take advantage of HelloUSA's discussion threads (Feature 14) to spread false information and hateful content.
-
-b). ***Design Response:*** Establish a moderation bot that will scan through posted content and take down posts that contain hateful language or false information.
 
 a). ***Observation: Stakeholders - Variation in Human Ability*** HelloUSA's resource map (Feature 9) feature may be tough to navigate for someone who has visual impairments, especially if there are multiple location pins clustered together. The map can also be difficult for someone who has limited motor control as zooming in/out and scrolling through the map could be difficult.
 
@@ -200,26 +197,35 @@ a). ***Observation: Values - Sociability vs. Privacy*** HelloUSA aims to facilit
 
 b). ***Design Response:*** The amount of information the user discloses is up to their discretion, however,there could be an addition of a opt-in and opt-out feature that allows users to opt-out of sharing their location.
 
-a). ***Observation: Values - User Experience Overwhelming*** One of the values of HelloUSA is to make resources more accessible and visible to immigrants. However, this may cause immigrant users to be overwhelmed with all the resources that are provided. (ie Feature 14 - Discussion Boards, Feature 9 - Resource Map, Feature 12 - Knowledge Hub)
+a). ***Observation: Values - User Experience of Values Overwhelming*** One of the values of HelloUSA is to make resources more accessible and visible to immigrants. However, this may cause immigrant users to be overwhelmed with all the resources that are provided. (ie Feature 14 - Discussion Boards, Feature 9 - Resource Map, Feature 12 - Knowledge Hub)
  
 b).***Design Response:*** Establish a resource walkthrough or tutorial when users join so they understand where resources are in the app. Could also organize resources separately into various tabs/windows to reduce clutter on the screen.
 
 ### Pervasiveness
 
-a). ***Observation: Pervasiveness - Spread of misinformation*** As more and more users join HelloUSA and create content, this may introduce harmful practices such as stalking/doxxing 
+a). ***Observation: Pervasiveness - Spread of misinformation from Widespread Use*** As more and more users join HelloUSA and create content, this may introduce harmful practices such as the spread of false information and hateful content in HelloUSA's discussion threads (Feature 14).
 
-b). ***Design Response:*** 
+b). ***Design Response:*** Establish a moderation bot that will scan through posted content and take down posts that contain hateful language or false information.
 
 ## Sketches
 
-### Goal: User wants to find ESL classes near them because they are having a hard time understanding English speakers and want more practice with the language
+### Goal: 
 
-### ***Brittle/Unclear Observations:*** Should resources of all types be displayed after a user enters their location, or should no resource be displayed and it is up to the user to select the resource type they want before resources are populated on the resource map.
+User wants to find ESL classes near them because they are having a hard time understanding English speakers and want more practice with the language
 
+![picture description](/assets/images/hello_usa_get_resource.jpeg)
 
+### Brittle/Unclear Observations:
 
-### Goal: User has recently arrived to the US and wish they have resources to help them navigate a new country
+Should resources of all types be displayed after a user enters their location, or should no resource be displayed and it is up to the user to select the resource type they want before resources are populated on the resource map.
 
+### Goal: 
 
-### ***Brittle/Unclear Observations:*** 
+User has recently arrived to the US and wish they have resources to help them navigate a new country
+
+![picture description](/assets/images/hello_usa_first_time.jpeg)
+
+### Brittle/Unclear Observations:
+
+What should the order of the account setup process be? 
 
