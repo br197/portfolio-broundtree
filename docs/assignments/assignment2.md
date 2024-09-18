@@ -227,5 +227,5 @@ User has recently arrived to the US and wish they have resources to help them na
 
 ### Brittle/Unclear Observations:
 
-What should the order of the account setup process be? 
+What should the order of the account setup process be? The verification step seemed to be too late in the flow. May have to change the ordering of the steps to improve use experience in creating an account.
 
