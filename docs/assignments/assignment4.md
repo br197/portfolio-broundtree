@@ -90,7 +90,7 @@
 ## Global Data Model
 <img src="/assets/images/globaldatamodel.jpeg" width="400px" height="400px">
 
-## Code
+## Code:
 
 **Deployed Service:** [link](a4-backend-4rso6z57a-briannas-projects-bda73302.vercel.app)
 
