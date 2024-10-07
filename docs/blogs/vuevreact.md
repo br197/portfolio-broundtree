@@ -1,5 +1,5 @@
 ---
-title: "Vue vs React (Extended Commentary)"
+title: "Vue v.s. React (Extended Commentary)"
 layout: doc
 ---
 
