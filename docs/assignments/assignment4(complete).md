@@ -92,8 +92,7 @@
 
 ## Code:
 
-**Deployed Service:** [link](a4-backend-4rso6z57a-briannas-projects-bda73302.vercel.app)
-
+**Deployed Service:** --
 **GitHub Repository:** [link](https://github.com/br197/a4-backend)
 
 ## Design Reflection
