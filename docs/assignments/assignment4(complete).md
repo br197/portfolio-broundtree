@@ -2,7 +2,7 @@
 
 ## Data Modeling
 
-### Posting[Item, User, Date]
+### Posting[Item, User]
 
 **States:**
 - setOfPosts: set of Item
@@ -12,13 +12,13 @@
 
 <img src="/assets/images/postingmodel.jpeg" width="400px" height="400px">
 
-### Commenting[Item, User, Date, Reply]
+### Commenting[Item, User, Comment]
 
 **States:**
-- setOfComments: Item -> set Reply
-- commentAuthor: Reply -> one User
-- commentContent: Reply -> one String
-- commentTimeCreated: Reply -> one Date
+- setOfComments: Item -> set Comment
+- commentAuthor: Comment -> one User
+- commentContent: Comment -> one String
+- commentTimeCreated: Comment -> one Date
 
 <img src="/assets/images/commentingmodel.jpeg" width="400px" height="400px">
 
@@ -26,6 +26,7 @@
 
 **States:**
 - itemLocation: Item -> one Location
+- setOfLocations: set Location
 
 <img src="/assets/images/mappingmodel.jpeg" width="400px" height="400px">
 
@@ -51,39 +52,38 @@
 ### Sessioning[User]
 
 **States:**
-- session: set of Sessions
+- session: set Sessions
 - activeUser: session -> one User
 
 <img src="/assets/images/sessioningmodel.jpeg" width="400px" height="400px">
 
-### Authenticating[Location]
+### Authenticating
 
 **States:**
 - registered: set User
 - username: registered -> one String
 - password: registered -> one String
-- location: registered -> one Location
 
 <img src="/assets/images/authmodel.jpeg" width="400px" height="400px">
 
 ## App
-***include Date***
-
 ***include Location***
 
 ***include Milestone***
 
-***include Authenticating[Location]***
+***include Authenticating***
+
+***include Collection***
 
 ***include Sessioning[Authenticating.User]***
 
-***include Posting[String, Sessioning.User, Date]***
+***include Posting[String, Sessioning.User]***
 
-***include Commenting[Posting.Post, Sessioning.User, Date, String]***
+***include Commenting[Posting.setOfPosts, Sessioning.User, String]***
 
 ***include Mapping[Sessoning.User, Location]***
 
-***include Grouping[Collection, Sessioning.User, Authenticating.Registered]***
+***include Grouping[Collection, Sessioning.User, Authenticating.Registered, Posting.setOfPosts, Comments.setOfComments]***
 
 ***include Milestone-ing[Milestone, Sessioning.User]***
 
