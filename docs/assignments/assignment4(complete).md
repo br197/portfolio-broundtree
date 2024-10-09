@@ -20,7 +20,7 @@
 - commentContent: Comment -> one String
 - commentTimeCreated: Comment -> one Date
 
-<img src="/assets/images/commentingmodel.jpeg" width="400px" height="400px">
+<img src="/assets/images/newcommentingmodel.jpeg" width="400px" height="400px">
 
 ### Mapping[Item, Location]
 
@@ -64,7 +64,7 @@
 - username: registered -> one String
 - password: registered -> one String
 
-<img src="/assets/images/authmodel.jpeg" width="400px" height="400px">
+<img src="/assets/images/newauthmodel.jpeg" width="400px" height="400px">
 
 ## App
 ***include Location***
