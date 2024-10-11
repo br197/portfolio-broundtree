@@ -88,7 +88,7 @@
 ***include Milestone-ing[Milestone, Sessioning.User]***
 
 ## Global Data Model
-<img src="/assets/images/globaldatamodel.jpeg" width="400px" height="400px">
+<img src="/assets/images/revisedDataModel.jpeg" width="400px" height="400px">
 
 ## Code:
 
