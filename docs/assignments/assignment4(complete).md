@@ -95,7 +95,7 @@
 
 ## Code:
 
-**Deployed Service:** --
+**Deployed Service:** [link](https://a4-backend-delta.vercel.app/)
 
 **GitHub Repository:** [link](https://github.com/br197/a4-backend)
 
