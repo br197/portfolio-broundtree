@@ -92,9 +92,19 @@
 
 ## Code:
 
-**Deployed Service:** --
+**Deployed Service:** [link](a4-backend-ay6yqpg5x-briannas-projects-bda73302.vercel.app)
+
 **GitHub Repository:** [link](https://github.com/br197/a4-backend)
 
 ## Design Reflection
 
-While working on the backend, I had to make several changes to my concepts. For example, when I was implementing milestones, instead of getting all milestones possible, I changed it to getting only milestones for a user to make the milestoning concept more personable. I also made a lot of changes to how I wrote out my concept states when making my data models, such as element the userPosts state. In regards to my group concept, I decided to only focus on grouping users rather than other items (ie resources) in order to ensure that my backend was working properly for at least one case. I wanted to extend grouping to resources, but decided to focus on only one item type (User) given the time constraint.
+While working on the backend, I had to make several changes to my concept as I found some actions missing and rethought how I wanted concepts (such as mapping) to function. To keep this reflection succinct, I will highlight some of the most prominent design changes I made. The first change I made was to the Grouping Concept. I wanted to identify the groups created as either a resource group (store information) or user group (store members), but my current states for groups didn't support this. So, I added a state called resource that was true if the group is a resource group and false otherwise. I thought of creating another concept, but wanted to reuse as much of the code I had to implement user groups as possible. In adding a state rather than a concept, I was able to reuse my Group concept functions and synchronizations with minimal modification.
+
+
+Another big change I made was to the Mapping Concept. I realized that the only resources (information sources) I had in my app were posts and comments, which don’t have locations associated with them, so it didn’t make sense to have a findNearbyResources action since there would be no locations to compare. Another realization I had was that I didn’t have enough states and actions for the Mapping Concept. Based on feedback from A3, I removed the location state from my Authenticating Concept, which meant that I would lose where I stored the location state of users in my app. Due to this, I rethought where/how I wanted to store location and link location information to the user, which led me to create states in the Mapping Concept directly that represented location information and the user the location belonged to. I also added concepts other than the findNearbyUsers (GET) action I had which would allow for more flexibility for users to opt in and out of sharing their location and to update their location. I did think about creating a new Profiling concept to store location, but wanted to keep location information close to the concept I was using it in.
+
+
+Some honorable mentions were lowering barriers of access to creating resource groups. Initially I required that users post, comment, and join another group in order to be able to create a resource group to store information material. However, I thought about the purpose of my app: to  help users find information, so I didn’t want to put up obstacles when they were trying to do so.
+
+
+Overall, I made changes to make implementation and the user experience of my app less ambiguous and more complete. I also thought about the purpose of my app and made changes with this purpose in mind to better fulfill this purpose.
