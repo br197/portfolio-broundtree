@@ -22,13 +22,15 @@
 
 <img src="/assets/images/newcommentingmodel.jpeg" width="400px" height="400px">
 
-### Mapping[Item, Location]
+### Mapping[User, Maps]
 
 **States:**
-- itemLocation: Item -> one Location
-- setOfLocations: set Location
+- setofMaps: set Maps
+- user: setOfMaps -> one User
+- city: setOfMaps -> String
+- state: setOfMaps -> String
 
-<img src="/assets/images/mappingmodel.jpeg" width="400px" height="400px">
+<img src="/assets/images/revisedmapping.jpeg" width="400px" height="400px">
 
 ### Grouping[Collection, User, Items]
 
@@ -44,8 +46,8 @@
 ### Milestone-ing[Milestone, User]
 
 **States:**
-- setofMilestones: set Milestone
-- userMilestone: Milestone -> set User
+- setOfMilestones -> set Milestone
+- userMilestone: Milestone -> set Users
 
 <img src="/assets/images/milestoningmodel.jpeg" width="400px" height="400px">
 
@@ -67,7 +69,6 @@
 <img src="/assets/images/newauthmodel.jpeg" width="400px" height="400px">
 
 ## App
-***include Location***
 
 ***include Milestone***
 
@@ -75,20 +76,22 @@
 
 ***include Collection***
 
+***include Maps***
+
 ***include Sessioning[Authenticating.User]***
 
 ***include Posting[String, Sessioning.User]***
 
 ***include Commenting[Posting.setOfPosts, Sessioning.User, String]***
 
-***include Mapping[Sessoning.User, Location]***
+***include Mapping[Sessoning.User, Maps]***
 
 ***include Grouping[Collection, Sessioning.User, Authenticating.Registered, Posting.setOfPosts, Comments.setOfComments]***
 
 ***include Milestone-ing[Milestone, Sessioning.User]***
 
 ## Global Data Model
-<img src="/assets/images/revisedDataModel.jpeg" width="400px" height="400px">
+<img src="/assets/images/refinedglobalmodel.jpeg" width="400px" height="400px">
 
 ## Code:
 
