@@ -10,3 +10,4 @@ layout: doc
 - [Assignment 3: Convergent Design](./assignments/assignment3.md)
 - [Assignment 4: Backend Design & Implementation](./assignments/assignment4.md)
 - [Assignment 4: Backend Design & Implementation (complete)](./assignments/assignment4(complete).md)
+- [Assignment 5: Frontend Design & Implementation](./assignments/assignment5.md)
