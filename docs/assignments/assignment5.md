@@ -13,6 +13,7 @@
 - Improvements & Tradeoffs
     - Add a short tutorial section that explains milestones and how certain user actions can be unlocked. However, a tradeoff is that this will add complexity to the web app UI interface (by adding another element to the navigation bar for the tutorial page), which could decrease the pleasantness of the app UI for my target user (immigrants) since it may look too overwhelming.
     - The large error message pop up, althought very noticeable, can reduces the pleasantness the user feels when using the app as it obstructs their view and can become obnoxious as it loudly points out a user making a mistake in their user action. I could make this error message pop up smaller to make it more pleasant at the expense of a lesser information scent as the message will not be as noticeable to hint the user did something wrong.
+    - Add a tutorial/help page to the app 
 
 **Efficiency**
 - Support
@@ -24,9 +25,10 @@
 - Support
     - With the error messages that pop up on the group creation page, the message provides information about why the user can't create a group yet due to missing milestones.
 - Violate
-    - Althought the error message is helpful in telling the user that something is missing, it doesn't tell the user how to achieve the milestones. Only the developers who created the web app would know what user actions need to take place in order to achieve the milestones. 
+    - Although the error message is helpful in telling the user that something is missing, it doesn't tell the user how to achieve the milestones. Only the developers who created the web app would know what user actions need to take place in order to achieve the milestones. 
 - Improvements & Tradeoffs
-    - Instead of stating the milesetone name, I could instead state explicitly what actions the user hasn't done that are required in order to create a group. For example, "Oops! In order to create a group, you must make one post and one comment in another group. It looks like you haven't posted nor commented yet. Please post and comment in a group to unlock the ability to creata a group." This explicit message is long and could decrease the aesthetic pleasantness of the web app, as users are being provided a lot of text to read, but at the same time this message will improve the information scent and speak the user's language moreso.
+    - Instead of stating the milesetone name, I could instead state explicitly what actions the user hasn't done that are required in order to create a group. For example, "Oops! In order to create a group, you must make one post and one comment in another group. It looks like you haven't posted nor commented yet. Please post and comment in a group to unlock the ability to create a group." This explicit message is long and could decrease the aesthetic pleasantness of the web app, as users are being provided a lot of text to read, but at the same time this message will improve the information scent and speak the user's language moreso.
+    - I could also add this information to a tutorial/help page to inform the user why they can't perform some actions yet. This way isn't as aesthetically unpleasant and doesn't get in the way of the user's experience when they use the app.
 
 
 **Consistency**
@@ -50,12 +52,16 @@
     - All pages follow the conceptual structure described above.
 - Improvements & Tradeoffs
     - When building out the frontend, I could play around with how much of real estate on the screen the sidebar takes up since it is a persistant element on the screen. This could increase the aesthetic pleasantness of the page (more of page user cares about, less of navbar) but could violate Fitt's Law if the navbar is too small and the buttons are hard to click.
+    - A navigation bar along the top of the screen could also do the same job and is more natural for a user using a webpage to use. This would accomplish the same job as a navigation bar on the side and could use less real estate on the page, thus increasing the aesthetic pleasantness described in the point above.
 
+## Visual Design Study
+
+[link](https://docs.google.com/presentation/d/1tC5Y7GoHhEXailGX4NpY5uSInoi_a1AfkVNSu8R4OsY/edit?usp=sharing)
 
 ### GitHub and Deployment Links:
 
-**GitHub for Frontend:**
+**GitHub for Frontend:** [link](https://github.com/br197/a5-frontend)
 
-**GitHub for Portfolio:**
+**GitHub for Portfolio:** [link](https://github.com/br197/portfolio-broundtree)
 
-**Link of Deployment:**
+**Link of Deployment:** [link](https://a5-frontend-virid.vercel.app/)
